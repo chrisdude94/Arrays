@@ -25,13 +25,34 @@ const Ludwig = bosses[0]
 console.log(Ludwig.firstName);
 console.log(Ludwig.age);
 
-
 ///oppgave 3.///
+
+let time = 10;
+
+if (time >=6 == time < 12); {
+    console.log('GOD MORN');
+} 
+else if (time >= 12 == time < 18); {
+    console.log ('GOD ETTERMIDDAG')
+}
+else 
+console.log('GOD KVELD DA');
 
 
 
 ///oppgave 4.///
 
+var number = 1;
+var anotherNumber = 2;
+
+function add(n1, n2) {
+    return n1 + n2;
+}
+
+function multiply(n1, n2) {
+    console.log(n1 * n2);
+}
 
 
-
+var sum = add(number, anotherNumber);
+multiply( prompt("Velg et tall"), sum);
